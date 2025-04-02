@@ -1,29 +1,66 @@
-#Programa de Máquina tragamonedas
+🎰 Programa de Máquina Tragamonedas
 
-#Estructura del proyecto:
+✨ Estructura del Proyecto
+
 El proyecto está dividido en tres clases principales que implementan el patrón MVC. Estas clases son:
 
-1. Model: SlotMachineModel
-2. View: SlotMachineModelView
-3. Controller: SlotMachineModelController
+Model: SlotMachineModel
 
-#Clase SlotMachineModel
-SlotMachineModel es la clase que representa el modelo del juego de tragamonedas. Se encarga de manejar la lógica central del juego, incluyendo el saldo del jugador, la generación de símbolos y la evaluación de premios.
+View: SlotMachineView
 
-#Clase SlotMachineModelView
-SlotMachineView es la clase que define la interfaz gráfica del juego de tragamonedas. Se encarga de mostrar los rodillos, manejar la interacción con el usuario y actualizar el estado visual del juego.
+Controller: SlotMachineController
 
-#Clase SlotMachineModelController
-SlotMachineController es la clase encargada de manejar la lógica del juego y la comunicación entre la vista (SlotMachineView) y el modelo (SlotMachineModel). Implementa concurrencia para animar los rodillos mientras se calcula el resultado del giro.
+🎯 Descripción de las Clases
 
-#Clase TragaPerrasMain
-TragaPerrasMain es la clase principal del programa. Se encarga de inicializar la interfaz gráfica, solicitar el saldo inicial al usuario y conectar el modelo con el controlador para iniciar el juego.
+📚 Clase SlotMachineModel
 
-#Cómo jugar
-1.Inicia el programa.
-2.Ingresa un saldo inicial.
-3. Haz clic en el botón “Girar”, para empezar a jugar.
-4. Si los tres símbolos coinciden, recibirás un mensaje con el monto ganado.
-5. Si no tienes saldo suficiente, podrás agregar más.
-6.Sigue jugando hasta que quieras detenerte!.
+SlotMachineModel es la clase que representa el modelo del juego de tragamonedas. Se encarga de manejar la lógica central del juego, incluyendo:
+
+El saldo del jugador.
+
+La generación de símbolos aleatorios.
+
+La evaluación de premios según los resultados del giro.
+
+📺 Clase SlotMachineView
+
+SlotMachineView define la interfaz gráfica del juego de tragamonedas. Sus principales funciones incluyen:
+
+Mostrar los rodillos con los símbolos.
+
+Manejar la interacción con el usuario.
+
+Actualizar el estado visual del juego con cada giro.
+
+⚖️ Clase SlotMachineController
+
+SlotMachineController maneja la lógica del juego y la comunicación entre la vista (SlotMachineView) y el modelo (SlotMachineModel). Además, implementa concurrencia para:
+
+Animar los rodillos mientras se calcula el resultado del giro.
+
+Gestionar las apuestas y el saldo del jugador.
+
+🎡 Clase TragaPerrasMain
+
+TragaPerrasMain es la clase principal del programa. Se encarga de:
+
+Inicializar la interfaz gráfica.
+
+Solicitar el saldo inicial al usuario.
+
+Conectar el modelo con el controlador para iniciar el juego.
+
+🎲 Cómo Jugar
+
+Inicia el programa.
+
+Ingresa un saldo inicial.
+
+Haz clic en el botón “Girar” para empezar a jugar.
+
+Si los tres símbolos coinciden, recibirás un mensaje con el monto ganado.
+
+Si no tienes saldo suficiente, podrás agregar más.
+
+¡Sigue jugando hasta que quieras detenerte!
 
